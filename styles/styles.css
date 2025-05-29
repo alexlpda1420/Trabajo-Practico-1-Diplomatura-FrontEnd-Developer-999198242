@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+  padding: 0px;
+  margin:0px;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: yellowgreen;
+
+}
+
+.content-image img{
+  background-color: yellow;
+  padding: 10px;
+  margin: 10px;
+  width: 150px 
+}
+
+
+.content-description {
+  background-color: violet;
+  text-align: center;
+}
+
+/* About-me Section */
+
+.about-me {
+  background-color: lightblue;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me h2 {
+  border-bottom: 2px solid blue
+}
+
+/* Work-Experience Section */
+
+.work-experience {
+    padding: 20px;
+    background-color: azure;
+    
+}
+
+.work-experience h2 {
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.work-experience .experience {
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+/* Skills Section */
+
+
+.skills h2 {
+  border-bottom: 2px solid blue;
+  margin-bottom: 20px;
+  text-align: center;
+}
