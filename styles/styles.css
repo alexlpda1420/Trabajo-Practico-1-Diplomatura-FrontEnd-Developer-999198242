@@ -59,7 +59,7 @@
 }
 
 .work-experience h2 {
-    border-bottom: 2px solid blue;
+  border-bottom: 2px solid blue;
   margin: 0 0 20px 0;
   padding-bottom: 10px;
   font-size: 2rem;
@@ -145,18 +145,22 @@
   font-size: 2rem;
   color: #333;
 }
+
 .container {
   display: flex;
-  justify-content: center; /* Esto asegura que el contenido dentro de .container esté centrado */
+  justify-content: center;
+  /* Esto asegura que el contenido dentro de .container esté centrado */
 }
 
 .row {
   display: flex;
-  justify-content: center; /* Centra las columnas dentro de .row */
+  justify-content: center;
+  /* Centra las columnas dentro de .row */
 }
 
 .col-4 {
-  margin: 10px; /* Espacio entre las columnas */
+  margin: 10px;
+  /* Espacio entre las columnas */
 }
 
 /* Contact Section */
