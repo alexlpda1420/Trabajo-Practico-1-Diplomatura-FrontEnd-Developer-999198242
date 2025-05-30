@@ -1,8 +1,8 @@
 /* Reset CSS */
 * {
   padding: 0px;
-  margin:0px;
-  
+  margin: 0px;
+
 }
 
 
@@ -10,52 +10,61 @@
 
 .hero {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  background-color: yellowgreen;
-
+  background-color: rgb(49, 151, 247)
 }
 
-.content-image img{
-  background-color: yellow;
+.content-image img {
   padding: 10px;
   margin: 10px;
-  width: 150px 
+  width: 150px
 }
 
 
 .content-description {
-  background-color: violet;
+
   text-align: center;
 }
 
 /* About-me Section */
 
 .about-me {
-  background-color: lightblue;
-  padding: 10px;
+  background-color: azure;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px 0;
 }
 
 .about-me h2 {
-  border-bottom: 2px solid blue
+  border-bottom: 2px solid blue;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
 }
 
 /* Work-Experience Section */
 
 .work-experience {
-    padding: 20px;
-    background-color: azure;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: white;
+
 }
 
 .work-experience h2 {
     border-bottom: 2px solid blue;
-    margin-bottom: 20px;
-    text-align: center;
-    
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
+
 }
 
 .work-experience .experience {
@@ -67,46 +76,105 @@
 
 /* Skills Section */
 
-
-.skills h2 {
-  border-bottom: 2px solid blue;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Certification Section */
-
-.certifications {
-  /* display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: yellow */
+.skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px 0;
-  background-color: #f9f9f9; /* Fondo neutro */
+  background-color: azure;
 }
+
+.skills h2 {
+  border-bottom: 2px solid blue;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Certification Section */
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: white;
+}
+
 .certifications h2 {
-  /* border-bottom: 2px solid blue;
-  margin-bottom: 20px;
-  text-align: center; */
-  border-bottom: 2px solid blue;  /* Línea azul debajo del título */
-  margin: 0 0 20px 0;  /* Sin margen superior, 20px abajo */
-  padding-bottom: 10px; /* Un pequeño padding debajo del texto */
-  font-size: 2rem; /* Ajusta el tamaño del texto si es necesario */
-  color: #333; /* Color del texto */
+
+  border-bottom: 2px solid blue;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
 }
 
 .carousel-caption {
-  color: black; /* Cambia el color a negro o el que prefieras */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra para mejorar la legibilidad */
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption h5 {
-  color: #000000; /* Un color diferente para los títulos, por ejemplo un naranja */
+  color: #000000;
 }
+
 .carousel-caption p {
-  color: #333333; /* Un gris oscuro para los párrafos */
+  color: #333333;
+}
+
+/* Projects Section */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: azure;
+}
+
+.projects h2 {
+
+  border-bottom: 2px solid blue;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Esto asegura que el contenido dentro de .container esté centrado */
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Centra las columnas dentro de .row */
+}
+
+.col-4 {
+  margin: 10px; /* Espacio entre las columnas */
+}
+
+/* Contact Section */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: white;
+}
+
+.contact h2 {
+
+  border-bottom: 2px solid blue;
+  margin: 0 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
 }
