@@ -2,7 +2,9 @@
 * {
   padding: 0px;
   margin:0px;
+  
 }
+
 
 /* Hero Section */
 
@@ -70,4 +72,41 @@
   border-bottom: 2px solid blue;
   margin-bottom: 20px;
   text-align: center;
+}
+
+/* Certification Section */
+
+.certifications {
+  /* display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: yellow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #f9f9f9; /* Fondo neutro */
+}
+.certifications h2 {
+  /* border-bottom: 2px solid blue;
+  margin-bottom: 20px;
+  text-align: center; */
+  border-bottom: 2px solid blue;  /* Línea azul debajo del título */
+  margin: 0 0 20px 0;  /* Sin margen superior, 20px abajo */
+  padding-bottom: 10px; /* Un pequeño padding debajo del texto */
+  font-size: 2rem; /* Ajusta el tamaño del texto si es necesario */
+  color: #333; /* Color del texto */
+}
+
+.carousel-caption {
+  color: black; /* Cambia el color a negro o el que prefieras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra para mejorar la legibilidad */
+}
+
+.carousel-caption h5 {
+  color: #000000; /* Un color diferente para los títulos, por ejemplo un naranja */
+}
+.carousel-caption p {
+  color: #333333; /* Un gris oscuro para los párrafos */
 }
