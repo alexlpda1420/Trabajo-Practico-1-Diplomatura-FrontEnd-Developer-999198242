@@ -5,12 +5,41 @@
 
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -0,5px;
+}
+
+h4,
+h5 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p,
+a,
+form,
+button {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.6;
+}
+
 header {
   position: fixed;
   width: 100%;
 }
 
-.container-fluid{
+.container-fluid {
   background-color: azure;
 }
 
@@ -27,7 +56,7 @@ header {
 .content-image img {
   padding: 10px;
   margin: 10px;
-  width: 150px
+  width: 300px
 }
 
 
@@ -198,9 +227,9 @@ header {
 }
 
 footer {
-  background-color:azure;
+  background-color: azure;
   display: flex;
-  justify-content:space-around
+  justify-content: space-around
 }
 
 footer .links {
