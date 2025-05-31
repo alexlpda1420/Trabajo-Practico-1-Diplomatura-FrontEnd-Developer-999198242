@@ -45,6 +45,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px 0;
+  text-align: center;
 }
 
 .about-me h2 {
@@ -53,6 +54,10 @@ header {
   padding-bottom: 10px;
   font-size: 2rem;
   color: #333;
+}
+
+.about-me p {
+  text-align: center;
 }
 
 /* Work-Experience Section */
