@@ -5,10 +5,19 @@
 
 }
 
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.container-fluid{
+  background-color: azure;
+}
 
 /* Hero Section */
 
 .hero {
+  padding: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
