@@ -50,4 +50,4 @@ npm run dev
 
 ## 📸 Vista previa
 
-![preview](./assets/images/preview.png)
+![preview](assets/images/preview.png)
