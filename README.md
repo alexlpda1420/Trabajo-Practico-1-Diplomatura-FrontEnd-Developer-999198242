@@ -50,4 +50,4 @@ npm run dev
 
 ## 📸 Vista previa
 
-![preview](assets/images/preview.png)
+![preview](https://imgur.com/QU2zKGc)
