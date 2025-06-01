@@ -50,4 +50,4 @@ npm run dev
 
 ## 📸 Vista previa
 
-![preview](https://imgur.com/QU2zKGc)
+![preview](https://github.com/alexlpda1420/Trabajo-Practico-1-Diplomatura-FrontEnd-Developer-999198242/raw/master/assets/images/preview.png)
