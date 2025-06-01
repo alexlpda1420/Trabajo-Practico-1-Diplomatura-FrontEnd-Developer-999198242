@@ -51,7 +51,8 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(49, 151, 247);
+  /* background-color: rgb(49, 151, 247); */
+  background-image: url(../assets/images/banner.gif);
 }
 
 .content-image img {
@@ -67,6 +68,10 @@ header {
 .content-description {
   text-align: center;
   border: #000000;
+  color: white;
+  text-shadow: -1px -2px 5px rgba(0,0,0,0.6);
+  
+  
 }
 
 /* About-me Section */
