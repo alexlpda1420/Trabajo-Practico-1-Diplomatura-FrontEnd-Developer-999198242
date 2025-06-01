@@ -33,6 +33,10 @@ Soy **Roldán Alexis**, Administrador en Infraestructura IT, desarrollador con p
 
 ---
 
+## 📸 Vista previa
+
+![preview](./assets/images/preview.png)
+
 ## 🧪 Cómo clonar y ejecutar el proyecto localmente
 
 ```bash
@@ -47,7 +51,3 @@ npm install
 
 # Ejecutar la aplicación en desarrollo
 npm run dev
-
-## 📸 Vista previa
-
-![preview](https://github.com/alexlpda1420/Trabajo-Practico-1-Diplomatura-FrontEnd-Developer-999198242/raw/master/assets/images/preview.png)
