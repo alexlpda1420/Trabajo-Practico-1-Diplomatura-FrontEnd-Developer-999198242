@@ -217,6 +217,10 @@ header {
   background-color: white;
 }
 
+.form {
+  width: 500px;
+}
+
 .contact h2 {
   border-bottom: 2px solid blue;
   margin: 0 0 20px 0;
@@ -236,4 +240,15 @@ footer {
 
 footer .links {
   justify-content: space-between;
+}
+
+/* Media query para celular */
+
+@media (max-width: 480px) {
+  .form {
+    width: 200px;
+  }
+  .hero {
+    flex-direction: column;
+  }
 }
