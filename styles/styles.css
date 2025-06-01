@@ -2,10 +2,7 @@
 * {
   padding: 0px;
   margin: 0px;
-
 }
-
-
 
 h1,
 h2,
@@ -14,7 +11,7 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  letter-spacing: -0,5px;
+  letter-spacing: -0, 5px;
 }
 
 h4,
@@ -39,7 +36,7 @@ button {
 header {
   position: fixed;
   width: 100%;
-  z-index:1000;
+  z-index: 1000;
 }
 
 .container-fluid {
@@ -57,19 +54,17 @@ header {
   background-color: rgb(49, 151, 247);
 }
 
-  
-
 .content-image img {
   padding: 10px;
   margin: 10px;
   width: 300px;
   border-radius: 50%;
-  
+  box-shadow: 8px 16px 22px 5px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 8px 16px 22px 5px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 8px 16px 22px 5px rgba(0, 0, 0, 0.65);
 }
 
-
 .content-description {
-
   text-align: center;
   border: #000000;
 }
@@ -107,7 +102,6 @@ header {
   align-items: center;
   padding: 30px 0;
   background-color: white;
-
 }
 
 .work-experience h2 {
@@ -116,7 +110,6 @@ header {
   padding-bottom: 10px;
   font-size: 2rem;
   color: #333;
-
 }
 
 .work-experience .experience {
@@ -157,7 +150,6 @@ header {
 }
 
 .certifications h2 {
-
   border-bottom: 2px solid blue;
   margin: 0 0 20px 0;
   padding-bottom: 10px;
@@ -190,7 +182,6 @@ header {
 }
 
 .projects h2 {
-
   border-bottom: 2px solid blue;
   margin: 0 0 20px 0;
   padding-bottom: 10px;
@@ -227,7 +218,6 @@ header {
 }
 
 .contact h2 {
-
   border-bottom: 2px solid blue;
   margin: 0 0 20px 0;
   padding-bottom: 10px;
@@ -236,12 +226,14 @@ header {
 }
 
 footer {
+  box-shadow: 8px 16px 22px 5px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 8px 16px 22px 5px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 8px 16px 22px 5px rgba(0, 0, 0, 0.65);
   background-color: azure;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 footer .links {
-
   justify-content: space-between;
 }
