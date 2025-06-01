@@ -23,10 +23,10 @@ Soy **Roldán Alexis**, Administrador en Infraestructura IT, desarrollador con p
 
 ## 🖼 Secciones del sitio
 
-- **Inicio:** presentación general y acceso rápido a redes
+- **Inicio:** presentación general y acceso rápido a secciones de la web
 - **Sobre mí:** breve descripción personal y profesional
-- **Experiencias** trayectoria de mi expereincia laboral
-- **Habilidades Técnicas** descripcion de algunas habilidades que practico
+- **Experiencias** trayectoria de mi experiencia laboral
+- **Habilidades Técnicas** descripción de algunas habilidades que practico
 - **Certificaciones** certificados que validan mis conocimientos
 - **Proyectos:** muestra de trabajos con enlaces a código y demos
 - **Contacto:** formulario funcional para enviar mensajes directamente
@@ -37,17 +37,9 @@ Soy **Roldán Alexis**, Administrador en Infraestructura IT, desarrollador con p
 
 ![preview](./assets/images/preview.png)
 
-## 🧪 Cómo clonar y ejecutar el proyecto localmente
+## 🧪 Cómo clonar el proyecto
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/portfolio-roldan-alexis.git
+git clone https://github.com/alexlpda1420/Trabajo-Practico-1-Diplomatura-FrontEnd-Developer-999198242.git
 
-# Acceder al directorio
-cd portfolio-roldan-alexis
-
-# Instalar las dependencias
-npm install
-
-# Ejecutar la aplicación en desarrollo
-npm run dev
